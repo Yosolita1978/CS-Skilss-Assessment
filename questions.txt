@@ -1,0 +1,54 @@
+Runtime
+
+1. What determines the workload of figuring out whether your box of animal crackers contains an elephant?
+A. How many animal crackers are in the box. In my worst case scenario, there is not elephant and I have to look in every single cracker in the box
+
+2. 
+A.
+O(1)
+O(logn)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+O(n!)
+
+Stacks and Queues
+
+In the following cases, would a stack or queue be a more appropriate data structure?
+1. The process of loading and unloading pallets onto a flatbed truck
+A. Stack
+2. Putting bottle caps on bottles of beer as they roll down an assembly line
+A. Queue
+3. Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+A. Stack
+4. Describe two more situations where a queue would be an appropriate data structure.
+A. A system that takes the turns in a restaurant. The last order is the last in the queue, but the first order has to be the first order to be processed. 
+5. Describe two more situations where a stack would be an appropriate data structure.
+A. Making a program that has the "undo" function. You have to count the last thing that the user did, and that has to be the first thing that the user can undo it. 
+
+Linked Lists
+
+1.
+The nodes are the boxes. Each one of the boxes(nodes) has two attributes. The data is the string with the word "apple" or "berry" and the next attribute, that is just a connection with the next item in the list. The next attribute is just the arrow that makes that connection
+
+The head is the first element of the LinkedList, and in this case is the box with the data "apple". Tha tail is the node wich next is None, in this case, the "cherry" node.
+
+2.
+In a singly LinkedList each node has an attribute to know who is the next item in the list. In a doubly each node keep track of the next node and the previous. 
+
+3. 
+Because in a LinkedList we append items to the end of the list, so, if we keep track of wich node is the tail of the list, we don't have to traverse the list to find the tail before appending an item, so the performance of that function will be more fast. 
+
+Trees.
+
+1. food/Italian/Indian/Mexican/Lasagna/Pizza/Tikka Masala/ Saag/ Burritos
+
+2. food/italian/lasagna/italian/pizza/thin crust/ chicago style
+
+3. 
+The binary tree has two rules about the distribution of the information. 
+
+First, every node has to have two children. Even if one of the children is None, starting for the root every node has two children. 
+
+And, any value greater than his parent goes to the right child and any value less than his parent goes to the left child. So, you will always know what "route" take when searching a value, and in each decision you eliminate half of the values to search. 
